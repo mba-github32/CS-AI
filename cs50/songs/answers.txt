@@ -1,0 +1,14 @@
+SELECT AVG(energy), AVG(valence), AVG(danceability) FROM songs;
++-------------+--------------+-------------------+
+| AVG(energy) | AVG(valence) | AVG(danceability) |
++-------------+--------------+-------------------+
+| 0.65906     | 0.484443     | 0.71646           |
++-------------+--------------+-------------------+
+
+1. Their audio aura could be characterized based on the average energy, valence, and danceability
+of the top 100 songs, in which they are 0.65906, 0.484443, and 0.71646, respectivaly. Accordingly,
+it could be said that the top songs have to be small valence and somehow danceable.
+
+2. This aura might not be very representative of the listener because it is based on just a 100 songs in a specific one year.
+Alternatively, the calculation could be further improved by considering other factors like songs' ratings, how many times
+played or liked, etc.

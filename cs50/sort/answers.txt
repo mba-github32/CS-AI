@@ -1,0 +1,13 @@
+sort1 uses: Bubble Sort.
+
+How do you know?: For 10000 records: It takes 0.24s to sort reversed list. It takes 0.12s to sort sorted list. It takes 0.2s to sort random list.
+For 50000 records: It takes 4.98s to sort reversed list. It takes 1.51s to sort sorted list. It takes 6.13s to sort random list.
+
+sort2 uses: Merge Sort.
+
+How do you know?: For 10000 records: It takes 0.08s to sort reversed list. It takes 0.07s to sort sorted list. It takes 0.07s to sort random list.
+
+sort3 uses: Selection Sort.
+
+How do you know?: For 10000 records: It takes 0.17s to sort reversed list. It takes 0.14s to sort sorted list. It takes 0.14s to sort random list.
+For 50000 records: It takes 2.71s to sort reversed list. It takes 2.78s to sort sorted list. It takes 3.13s to sort random list.
