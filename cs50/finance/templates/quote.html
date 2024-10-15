@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <h2 class="mb-3">Quote Share Price</h2>
+    <form action="/quote" method="post">
+        <div>
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="symbol"
+                placeholder="Stock symbol" type="text">
+            <button class="btn btn-primary" type="submit">Get Quote</button>
+        </div>
+    </form>
+{% endblock %}
